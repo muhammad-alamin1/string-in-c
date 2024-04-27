@@ -1,4 +1,4 @@
-// Count Alphabets, Digits & Special Char
+// string len function
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
