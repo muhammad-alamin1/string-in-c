@@ -9,7 +9,7 @@ int main(void)
     char month[15];
     int day, year, result;
 
-    // read data
+    // read data with sscanf
     result = sscanf(date, "%d %s %d", &day, month, &year);
     if(result == 3){
         printf("Sscanf func Data Read successfully.!\n\n");
